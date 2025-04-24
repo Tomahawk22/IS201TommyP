@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grow Your Social Media in 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <h1 id="top">How to Grow Your Social Media in 2025</h1>
+  </div>
+
+  <div class="container">
+
+    <!-- Numbered Section -->
+    <div class="box">
+      <h2>3 Steps to Build a Personal Brand</h2>
+      <ol>
+        <li>Pick Your Niche</li>
+        <li>Be Consistent with Content</li>
+        <li>Engage with Your Audience</li>
+      </ol>
+    </div>
+
+    <!-- Bullet Section -->
+    <div class="box">
+      <h2>Quick Growth Tips</h2>
+      <ul>
+        <li>Post 3–5 times per week</li>
+        <li>Stick with one theme (fitness, fashion, finance)</li>
+        <li>Ask questions in your captions</li>
+        <li>Use Reels and short-form video to boost reach</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Creator Lifestyle</h2>
+      <img src="https://quasa.io/storage/images/news/HtL3QbiPxhoqQFWMwtCQ4PA5xoCYJerqN49ACsjF.jpg" alt="Influencer at work">
+    </div>
+
+    <div class="box">
+      <h2>Learn from the Best</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vBZEJg1I8rk?si=c43ymU5Hj8SOlfuZ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="box">
+      <h2>Social Media Stats</h2>
+      <div class='tableauPlaceholder' id='viz1745370799332' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt='All Online Adults MAU Channel Ranking'
+              src='https://public.tableau.com/static/images/So/Socialmediatrend/AllOnlineAdultsMAUChannelRanking/1_rss.png'
+              style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Socialmediatrend/AllOnlineAdultsMAUChannelRanking' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image'
+            value='https://public.tableau.com/static/images/So/Socialmediatrend/AllOnlineAdultsMAUChannelRanking/1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1745370799332');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
+
+    <div class="box">
+      <h2>Test Your Engagement Strategy</h2>
+      <input type="number" id="likes" placeholder="Enter avg likes">
+      <button onclick="checkGrowth()">Check Growth</button>
+      <p id="result"></p>
+    </div>
+
+    <p class="footer-nav">
+      <a href="#top">Back to Top</a> |
+      <a href="index.html">Back to Resume</a> |
+      <a href="app.html">Open Mini App</a>
+    </p>
+  </div>
+
+  <script>
+    function checkGrowth() {
+      const likes = document.getElementById("likes").value;
+      const result = document.getElementById("result");
+      if (likes >= 100) result.textContent = "🔥 Your strategy is working!";
+      else result.textContent = "📉 Try boosting engagement!";
+    }
+  </script>
+</body>
+</html>
